@@ -1,0 +1,96 @@
+body {
+ margin: 0;
+}
+
+header{
+ border-bottom: 3px solid #a4a4a4;
+}
+
+.hbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.title{
+  font-size: 30px;
+  font-family: "Mouse Memoirs", "Times New Roman", "serif";
+}
+
+.homenav {
+ color: black;
+ font-family:  Helvetica, Arial, sans-serif;
+ text-decoration: none;
+}
+
+.homenav:hover{
+ color: blue;
+}
+
+.contentp{
+ background-color: #176566;
+ padding: 10px;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  font-family:  Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+
+
+.links{
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.txlink:link{
+  color: white;
+}
+
+.txlink:hover{
+ color: blue;
+}
+
+.sources {
+  color: white;
+  background-color: black;
+  font-family:  Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+img {
+  width: 360px;
+  height: 225px;
+}
+
+.exmpimg{
+  width: 370px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.vidsection{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video{
+  display: block;
+  margin: auto;
+}
+
+.vidcite{
+  width: 711px;
+  display: block;
+  margin: auto;
+  font-size: 12px;
+}

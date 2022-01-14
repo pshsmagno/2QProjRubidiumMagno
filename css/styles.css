@@ -1,0 +1,160 @@
+body {
+ margin: 0;
+}
+
+header{
+ border-bottom: 3px solid #a4a4a4;
+ margin-bottom: 20 px;
+}
+
+.title{
+  font-size: 30px;
+  font-family: "Mouse Memoirs", "Times New Roman", "serif";
+}
+
+a{
+ text-decoration: none;
+}
+
+.homenav {
+ color: black;
+ font-family:  Helvetica, Arial, sans-serif;
+ text-decoration: none;
+}
+
+.homenav:hover{
+ color: blue;
+}
+
+.hbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.content{
+ background-image: url("../images/darkwater.jpg"); 
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ display: flex;
+ flex-direction: column; 
+ justify-content: center;
+ align-items: center;
+
+ padding: 0 10px;
+}
+
+
+.quote{
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 50px;
+  font-style: italic;
+}
+
+
+
+.quoter{
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 40px;
+}
+
+.intro{
+  margin-top: 35px;
+  color: white;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.txpglink{
+ margin-top: 30px;
+ padding: 7px;
+ border: 1px solid white;
+ border-radius: 20px;
+ color: white;
+ font-size: 15px;
+ font-family:  Helvetica, Arial, sans-serif;
+ text-decoration: none;
+}
+
+.txpglink:hover{
+ color: blue;
+ background-color: white;
+}
+
+.contentp{
+ background-color: #176566;
+ padding: 10px;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  font-family:  Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+
+
+.links{
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-family:  Helvetica, Arial, sans-serif;
+}
+
+.txlink{
+  color: white;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 16px;
+}
+
+.txlink:hover{
+ color: blue;
+ background-color: white
+}
+
+.sources {
+  color: white;
+  background-color: black;
+  font-family:  Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+img {
+  width: 360px;
+  height: 225px;
+}
+
+.exmpimg{
+  width: 370px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.vidsection{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video{
+  display: block;
+  margin: auto;
+}
+
+.vidcite{
+  width: 711px;
+  display: block;
+  margin: auto;
+  font-size: 12px;
+}
+
+
